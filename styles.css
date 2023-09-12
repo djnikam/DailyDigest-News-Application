@@ -1,0 +1,106 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the header */
+header {
+    background-color: #50d7ba;
+    color: #000000;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+/* Styling for the "About Us" section */
+.about {
+    padding: 40px;
+    text-align: justify;
+    background-color: #f7f2f2; /* Add a background color to distinguish the sections */
+}
+
+.about p{
+    width: 80%;
+}
+
+.about h2{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.about h4 {
+    text-align: center;
+}
+
+#lef{
+    margin-left: 1rem;
+}
+
+
+/* Styling for the contact section */
+.contact {
+    padding: 20px;
+    background-color: #f7f2f2;
+    text-align: center;
+    height: 13rem;
+}
+
+.contact h2 {
+    font-size: 1.5rem;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.info-item {
+    text-align: center;
+    margin: 0 20px;
+}
+
+/* Styling for the footer */
+footer {
+    bottom: 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+    /* Adjust your styles for smaller screens here */
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav {
+        margin-top: 10px;
+    }
+}
